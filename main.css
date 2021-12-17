@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenitore {
+    display: flex;
+    width: 100vw;
+    background-color: rgb(176, 194, 188);
+  
+}
+
+
+
+main {
+    width: 100%;
+    background-color: blanchedalmond;
+
+}
+
+aside {
+    display: flex;
+    height: 100vh;
+    width: 15vw;
+    background-color: aquamarine;
+    justify-content: center;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    background-color: blueviolet;
+    align-items: center;
+    padding: 0 5rem;
+
+}
+
+.rettangolo {
+    width: 12rem;
+    height: 5rem;
+    background-color: black;
+
+}
+
+.cerchio {
+    width: 4rem;
+    height: 4rem;
+    background-color: brown;
+    border-radius: 50%;
+    position: fixed;
+    right: 3rem;
+    bottom: 3rem;
+}
+
+.DH {
+    width: 2rem;
+    height: 2rem;
+    background-color: azure;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 578px)
+{
+    aside {
+        display: none;
+    }
+}
